@@ -7,7 +7,8 @@ from PIL import Image
 from io import BytesIO
 from openpyxl import Workbook
 from openpyxl.drawing.image import Image as XLImage
-from openpyxl.utils.dataframe import dataframe_to_rows, get_column_letter
+from openpyxl.utils.dataframe import dataframe_to_rows
+from openpyxl.utils import get_column_letter
 
 # ====== 원본 코드에서 가져온(또는 축약한) 핵심 유틸 ======
 def safe_fps(cap):
