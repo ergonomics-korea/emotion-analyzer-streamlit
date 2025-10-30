@@ -1,7 +1,13 @@
-numpy==2.1.3
-pillow==11.0.0
-opencv-python==4.10.0.84
-openpyxl==3.1.5
-pandas==2.2.3
-matplotlib==3.9.2
+# Core
 streamlit==1.39.0
+
+# Vision / Data
+opencv-python==4.10.0.84
+pillow==10.3.0          # (Py3.12에서 안정)
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.8.4
+openpyxl==3.1.5
+
+# (옵션) performance/logging 등
+tqdm==4.66.5
